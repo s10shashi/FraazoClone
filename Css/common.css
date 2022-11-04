@@ -1,0 +1,434 @@
+body {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0px;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+}
+
+/* <!-- ------------------------------------------------------NAVBAR------------------------------------------------------------ --> */
+span {
+    color: rgb(29, 199, 160);
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    display: inline-block;
+    margin-left: 4px;
+
+}
+
+#navbar {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    /* margin-top: 10px; */
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-bottom: 25px; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+#logo {
+    width: 10%;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#area>select {
+    border: 0px;
+}
+
+#search {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search>input {
+    width: 100%;
+    height: 30px;
+    padding: 8px;
+    border-radius: 30px;
+    margin: auto;
+    border: 0.5px solid gray;
+    position: relative;
+}
+
+#search>i {
+    color: grey;
+    position: absolute;
+    margin-left: 36%;
+}
+
+.fa-solid {
+    color: grey;
+    margin-right: 5px;
+
+}
+
+#carttop{
+    font-size: 16px
+}
+
+/* <!-- ------------------------------------------------------------------------------------------------------------------ --> */
+#first-screen {
+    /* margin-top: 50px; */
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* -----------------------------------------------swiper Part---------------------------------------------------- */
+#slider_window {
+    width: 62%;
+    border-radius: 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+/* -----------------------------------------------swiper Part---------------------------------------------------- */
+
+#right_side {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+#right_side>div {
+    width: 92%;
+
+}
+
+#right_side>div>img {
+    width: 100%;
+}
+
+/* <!-- -------------------------------------------------CATEGORY----------------------------------------------------------------- --> */
+#category {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    /* display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly; */
+}
+
+/* #category>div{
+            width: 10%;
+        } */
+#category>div>a>img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+/* <!-- ----------------------------------------------------COMMON FOR PRODUCTS----------------------------------------------------- --> */
+
+hr {
+    width: 90%;
+}
+
+h1 {
+    margin-left: 5%;
+    margin-bottom: 0px;
+}
+
+/* <!-- ------------------------------------------------------------------------------------------------------------------ --> */
+/* FOR THE FRUITES, VEGETABLES,KITCHEN STAPLES AND OTHER APPEND PARTS */
+.left_right {
+    margin: auto;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 4%;
+    margin-top: 10%;
+}
+
+.left_right>div>button {
+    background-color: white;
+    border: 1px solid rgb(206, 194, 194);
+    color: grey;
+    font-size: larger;
+    border-radius: 4px;
+    padding: 0px 8px 4px 8px;
+}
+
+/* <!-- ----------------------------------------------------APP DOWNLOAD-------------------------------------------------------- --> */
+
+#app-download {
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+
+#app-download>.mobilephoto {
+    width: 50%;
+    margin: auto;
+}
+
+.mobilephoto>img {
+    width: 100%;
+}
+
+#app-download>.login_mobile {
+    padding-top: 50px;
+    width: 40%;
+    display: block;
+
+}
+
+#app-download>.login_mobile>p:first-child {
+    font-size: 35px;
+    color: black;
+}
+
+.login_mobile>form {
+    display: block;
+    margin-top: 50px;
+}
+
+.login_mobile>form>input {
+    width: 90%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+
+/* <!-- -------------------------------------------------------FOOTER----------------------------------------------------------- --> */
+#foooter-cloud {
+    width: 100%;
+    margin-bottom: 0px;
+    z-index: 3;
+}
+
+#foooter-cloud>img {
+    width: 100%;
+}
+
+#footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(172, 166, 166);
+    padding: 15px;
+    background-color: rgb(13, 82, 65);
+    margin-top: -25px;
+}
+
+#footer p {
+    font-size: 12px;
+    width: 95%;
+    text-align: justify;
+    margin: auto;
+    color: white;
+
+}
+
+#footer h3 {
+    text-align: center;
+    color: white;
+
+}
+
+#footer_content {
+    margin: auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+}
+
+#footer b{
+    color: white;
+}
+
+#footer1 img {
+    width: 100%;
+}
+
+#footer1>p {
+    text-align: justify;
+    margin-top: 30px;
+}
+
+#footer_content>div>p {
+    margin: 5px;
+}
+
+/* <!-- ----------------------------------------------------------------------------------------------------------------------------- --> */
+#products_page {
+    padding-top: 30px;
+    width: 95%;
+    margin: auto;
+}
+
+/* <!-- ----------------------------------------------------------------------------------------------------------------------------- --> */
+
+/* -------------- Login Part Css -------------- */
+#user {
+    cursor: pointer;
+    /* font-size: 13px; */
+    display: inline;
+}
+
+#user:hover {
+    color: black;
+}
+
+/* -------------- Login Part End Css -------------- */
+
+
+/* Medium Screen */
+
+@media all and (min-width:751px) and (max-width:1024px) {
+    #search {
+        width: 30%;
+    }
+
+    #search>i {
+        margin-left: 25%;
+    }
+
+    /* category */
+
+    #category {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* App Download */
+
+    #app-download {
+        display: block;
+    }
+
+    #app-download>.mobilephoto {
+        width: 100%;
+    }
+
+    #app-download>.login_mobile {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* #footer>p,
+    #footer>h1 {
+        display: none;
+    } */
+
+    #footer_content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 5% 10%;
+    }
+
+    #footer_content>div:first-child {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #footer_content>div:first-child img {
+        width: 60%;
+    }
+
+    #footer_content>div:nth-child(2) {
+        padding-top: 15px;
+        padding-left: 20%;
+    }
+
+    #footer_content>div:nth-child(4) {
+        padding-left: 20%;
+    }
+}
+
+/* Small Screen */
+
+@media all and (max-width:750px) {
+    #navbar {
+        justify-content: space-evenly;
+        height: 50px;
+        align-items: center;
+    }
+
+    #navbar>div {
+        padding: 10px 5px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 10px;
+    }
+
+    #navbar>div:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    #carttop {
+        font-size: 16px;
+    }
+
+    #search,
+    #area {
+        display: none;
+    }
+
+    /* Slider */
+
+    #first-screen{
+        display: block;
+        width: 95%;
+    }
+
+    #slider_window{
+        width: 100%;
+    }
+    
+    #right_side{
+        width: 100%;
+    }
+    
+    #right_side > div{
+        width: 100%;
+    }
+
+    /* Category */
+
+    #category {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    #app-download {
+        display: none;
+    }
+
+    #foooter-cloud {
+        display: none;
+    }
+
+    #footer {
+        display: none;
+    }
+}
